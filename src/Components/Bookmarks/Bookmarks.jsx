@@ -1,11 +1,11 @@
 import Bookmark from "../../Bookmark/Bookmark";
 
-const Bookmarks = ({ bookmarks }) => {
+const Bookmarks = ({ bookmarks, readTime }) => {
   return (
     <div className="md:w-1/3">
       <div className="bg-[#efecfd] rounded-[8px] mb-4 border border-[#6047ec]">
         <h2 className="text-2xl font-bold text-[#6047EC] text-center p-6 ">
-          Spent time on read : 177 min
+          Spent time on read : {readTime} min
         </h2>
       </div>
       <div className="bg-[#f3f3f3] p-6 rounded-[8px]">

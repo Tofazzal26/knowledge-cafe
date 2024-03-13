@@ -6,6 +6,14 @@ import Header from "./Components/Header/Header";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readTime, setReadTime] = useState(0);
+
+  const handleReadTime = (time, id) => {
+    const newReadingTime = readTime + time;
+    setReadTime(newReadingTime);
+    const removeBookmark = bookmarks.filter((idx) => idx.id !== id);
+    setBookmarks(removeBookmark);
+  };
 
   const handleBookmarks = (blog) => {
     const newBookmarked = [...bookmarks, blog];
@@ -15,8 +23,11 @@ function App() {
     <div>
       <Header />
       <div className="md:flex gap-6 container mx-auto">
-        <Blogs handleBookmarks={handleBookmarks} />
-        <Bookmarks bookmarks={bookmarks} />
+        <Blogs
+          handleReadTime={handleReadTime}
+          handleBookmarks={handleBookmarks}
+        />
+        <Bookmarks readTime={readTime} bookmarks={bookmarks} />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Blog = ({ blog, handleBookmarks }) => {
+const Blog = ({ blog, handleBookmarks, handleReadTime }) => {
   const {
     cover,
     title,
@@ -9,6 +9,8 @@ const Blog = ({ blog, handleBookmarks }) => {
     reading_time,
     hashtag,
     mark,
+    time,
+    id,
   } = blog;
   return (
     <div className="space-y-8 mb-16">
@@ -48,7 +50,12 @@ const Blog = ({ blog, handleBookmarks }) => {
         <p className="text-xl font-medium text-[#11111199]">{hashtag[0]}</p>
         <p className="text-xl font-medium text-[#11111199]">{hashtag[1]}</p>
       </div>
-      <h2 className="text-xl font-semibold text-[#6047EC]">{mark}</h2>
+      <button
+        onClick={() => handleReadTime(time, id)}
+        className="text-xl font-semibold text-[#6047EC] underline"
+      >
+        {mark}
+      </button>
     </div>
   );
 };
