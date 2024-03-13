@@ -2,37 +2,45 @@
   {
     "id": 987654,
     "cover": "../src/images/1.jpg",
-    "title": "The Secret Garden",
+    "title": "Swift for iOS: Building Your First App Step-by-Step",
     "author": "Amelia Carter",
     "author_img": "../src/images/boy1.png",
     "posted_date": "2024-03-10",
-    "reading_time": "45 minutes"
+    "reading_time": "45 minutes read",
+    "mark": "Mark as read",
+    "hashtag": ["#TechTalk", "#WebDev"]
   },
   {
     "id": 123456,
-    "cover": "../src/images/2.jpg",
-    "title": "Into the Abyss",
+    "cover": "../src/images/2.png",
+    "title": "C++ Crash Course: Learn the Fundamentals in Record Time",
     "author": "Benjamin Fox",
     "author_img": "../src/images/boy2.png",
     "posted_date": "2024-03-11",
-    "reading_time": "30 minutes"
+    "reading_time": "30 minutes read",
+    "mark": "Mark as read",
+    "hashtag": ["#Python", "#CodeReview"]
   },
   {
     "id": 456789,
-    "cover": "../src/images/3.jpg",
-    "title": "Beyond the Horizon",
+    "cover": "../src/images/3.png",
+    "title": "Data Dive: Exploring Data Analysis Techniques with Python",
     "author": "Emily Scott",
     "author_img": "../src/images/girl1.jpg",
     "posted_date": "2024-03-09",
-    "reading_time": "60 minutes"
+    "reading_time": "60 minutes read",
+    "mark": "Mark as read",
+    "hashtag": ["#DevDiscuss", "#JavaScript"]
   },
   {
     "id": 789012,
     "cover": "../src/images/4.jpg",
-    "title": "The Lost Kingdom",
+    "title": "Blockchain Basics: Understanding the Technology",
     "author": "Daniel White",
     "author_img": "../src/images/girl2.jpg",
     "posted_date": "2024-03-12",
-    "reading_time": "75 minutes"
+    "reading_time": "75 minutes read",
+    "mark": "Mark as read",
+    "hashtag": ["#CodeChallenge", "#DataScience"]
   }
 ]
