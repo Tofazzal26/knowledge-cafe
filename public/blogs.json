@@ -1,6 +1,6 @@
 [
   {
-    "id": 987654,
+    "id": 1,
     "cover": "../src/images/1.jpg",
     "title": "Swift for iOS: Building Your First App Step-by-Step",
     "author": "Amelia Carter",
@@ -11,7 +11,7 @@
     "hashtag": ["#TechTalk", "#WebDev"]
   },
   {
-    "id": 123456,
+    "id": 2,
     "cover": "../src/images/2.png",
     "title": "C++ Crash Course: Learn the Fundamentals in Record Time",
     "author": "Benjamin Fox",
@@ -22,7 +22,7 @@
     "hashtag": ["#Python", "#CodeReview"]
   },
   {
-    "id": 456789,
+    "id": 3,
     "cover": "../src/images/3.png",
     "title": "Data Dive: Exploring Data Analysis Techniques with Python",
     "author": "Emily Scott",
@@ -33,7 +33,7 @@
     "hashtag": ["#DevDiscuss", "#JavaScript"]
   },
   {
-    "id": 789012,
+    "id": 4,
     "cover": "../src/images/4.jpg",
     "title": "Blockchain Basics: Understanding the Technology",
     "author": "Daniel White",
