@@ -1,0 +1,38 @@
+[
+  {
+    "id": 987654,
+    "cover": "../src/images/1.jpg",
+    "title": "The Secret Garden",
+    "author": "Amelia Carter",
+    "author_img": "../src/images/boy1.png",
+    "posted_date": "2024-03-10",
+    "reading_time": "45 minutes"
+  },
+  {
+    "id": 123456,
+    "cover": "../src/images/2.jpg",
+    "title": "Into the Abyss",
+    "author": "Benjamin Fox",
+    "author_img": "../src/images/boy2.png",
+    "posted_date": "2024-03-11",
+    "reading_time": "30 minutes"
+  },
+  {
+    "id": 456789,
+    "cover": "../src/images/3.jpg",
+    "title": "Beyond the Horizon",
+    "author": "Emily Scott",
+    "author_img": "../src/images/girl1.jpg",
+    "posted_date": "2024-03-09",
+    "reading_time": "60 minutes"
+  },
+  {
+    "id": 789012,
+    "cover": "../src/images/4.jpg",
+    "title": "The Lost Kingdom",
+    "author": "Daniel White",
+    "author_img": "../src/images/girl2.jpg",
+    "posted_date": "2024-03-12",
+    "reading_time": "75 minutes"
+  }
+]
